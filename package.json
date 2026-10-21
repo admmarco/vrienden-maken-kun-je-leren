@@ -1,0 +1,15 @@
+{
+  "name": "vrienden-maken-kun-je-leren",
+  "version": "1.0.0",
+  "description": "Cursus Vrienden maken kun je leren – website",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && npx --yes serve dist"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "marked": "^12.0.2"
+  },
+  "private": true,
+  "type": "module"
+}
